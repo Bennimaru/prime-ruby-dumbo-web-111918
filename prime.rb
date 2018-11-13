@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(n)
-  {|x|
-    if n%x==0
+  (2..n-1){|x|
+    if x%n==0
   }
 end
